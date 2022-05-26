@@ -9,7 +9,6 @@ by Thomas Nadin-Hepburn, Lukas Trišauskas, Nicolas Suckling
 
 ## Using the software
 
-- Browse
 1. Click browse to open file explorer window
 2. Select image you wish to use
 3. Click test to receive your prediction
