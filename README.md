@@ -1,6 +1,8 @@
 # Sign Language Recognition
 by Thomas Nadin-Hepburn, Lukas Trišauskas, Nicolas Suckling
 
+![image](https://user-images.githubusercontent.com/76224796/170510401-826facf4-0619-41a0-b3f8-b533d1f007e4.png)
+
 ![image](https://user-images.githubusercontent.com/76224796/170510298-2525471a-07fa-4793-b76c-89bb3281ff91.png)
 
 ## How to run
