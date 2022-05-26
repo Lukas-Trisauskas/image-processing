@@ -38,14 +38,18 @@ def test():
     output_box.config(text=predicted[predict_index], background='light green')
 
 def browse():
-    path = filedialog.askopenfilename(initialdir='/', title='select an image', filetypes=(('image', '*.jpg'),('all', '*.*')))
-    image_path.append(path)
-    path_entry.insert(tk.INSERT, image_path[0])
-    load_image = Image.open(image_path[0])
-    image_object = ImageTk.PhotoImage(load_image)
-    webcam.image_object = image_object
-    webcam.create_image(0,0, anchor=NW, image=image_object)
-    test_btn['state'] = tk.NORMAL
+    try:
+        path = filedialog.askopenfilename(initialdir='/', title='select an image', filetypes=(('image', '*.jpg'),('all', '*.*')))
+        if exists(path):
+            image_path.append(path)
+            path_entry.insert(tk.INSERT, image_path[0])
+            load_image = Image.open(image_path[0])
+            image_object = ImageTk.PhotoImage(load_image)
+            webcam.image_object = image_object
+            webcam.create_image(0,0, anchor=NW, image=image_object)
+            test_btn['state'] = tk.NORMAL
+    except Exception as error:
+        messagebox.showinfo(f"file {path} does not exist\nerror: {error}")
 
 def reset():
     output_box.config(background='light yellow', text='N/A')
