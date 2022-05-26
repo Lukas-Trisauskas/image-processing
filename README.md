@@ -3,7 +3,7 @@ by Lukas Trišauskas, Thomas Nadin-Hepburn, Nicolas Suckling, John Merritt
 
 ## Workflow
 
-![GitHub Workflow-2](https://user-images.githubusercontent.com/76224796/169609435-22884b41-388a-46fc-9ec3-0a9a18fa8b1a.png)
+![GitHub Workflow-2](https://user-images.githubusercontent.com/76224796/170488702-f753c7c3-a575-4a14-a078-1012850c244e.png)
 
 [ !! ] The image-processing repository consists of three branches
 
@@ -39,7 +39,8 @@ Another example, if you wanted to add a bug fix, I would create a new branch and
 
 
 ## Semantic Versioning
-![Blank diagram-3](https://user-images.githubusercontent.com/76224796/169652814-14ec8ad9-233a-4b49-bbad-93afaebbeca6.png)
+
+![Blank diagram-3](https://user-images.githubusercontent.com/76224796/170488815-48c4b882-3fa0-4165-b490-e62c6699fc9f.png)
 
 Major refers to when a working version of the app is released. Increment once develop branch has been merged with main branch. 
 
