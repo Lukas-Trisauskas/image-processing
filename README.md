@@ -1,6 +1,8 @@
 # Sign Language Recognition
 by Thomas Nadin-Hepburn, Lukas Trišauskas, Nicolas Suckling
 
+![image](https://user-images.githubusercontent.com/76224796/170510298-2525471a-07fa-4793-b76c-89bb3281ff91.png)
+
 ## How to run
 
 1. Unzip the ASL_Recognition folder
