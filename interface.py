@@ -25,7 +25,6 @@ window = tk.Tk()
 window.title('Sign Language Recognition')
 window.config(padx=10, pady=10)
 
-
 # # button commands
 #  # when test button is pressed this function will execute
 def test():
@@ -48,7 +47,6 @@ def browse():
     webcam.create_image(0,0, anchor=NW, image=image_object)
     test_btn['state'] = tk.NORMAL
 
-    
 def reset():
     output_box.config(background='light yellow', text='N/A')
     path_entry.delete(0, tk.END)
