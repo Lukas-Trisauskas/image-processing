@@ -1,5 +1,5 @@
 # Sign Language Recognition
-by Lukas Trišauskas, Thomas Nadin-Hepburn, Nicolas Suckling
+by Thomas Nadin-Hepburn, Lukas Trišauskas, Nicolas Suckling
 
 ## How to run
 
