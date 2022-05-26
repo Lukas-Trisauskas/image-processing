@@ -38,6 +38,8 @@ def test():
     output_box.config(text=predicted[predict_index], background='light green')
 
 def browse():
+    image_path.clear()
+    path_entry.delete(0, tk.END)
     try:
         path = filedialog.askopenfilename(initialdir='/', title='select an image', filetypes=(('image', '*.jpg'),('all', '*.*')))
         if exists(path):
@@ -48,9 +50,8 @@ def browse():
             webcam.image_object = image_object
             webcam.create_image(0,0, anchor=NW, image=image_object)
             test_btn['state'] = tk.NORMAL
-    except Exception as error:
-        messagebox.showinfo(f"file {path} does not exist\nerror: {error}")
-
+    except:
+        print(f'file path {path} does not exist')
 def reset():
     output_box.config(background='light yellow', text='N/A')
     path_entry.delete(0, tk.END)
